@@ -1,0 +1,176 @@
+/*Colores
+	#4a96cb
+	#ffd8a3*/
+
+/*Background*/
+/*	background-color: #4a96cb;
+	background-image: linear-gradient(124deg, #4a96cb 20%, #ffd8a3 100%);
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #4a96cb;
+	background-image: linear-gradient(150deg, #4a96cb 20%, #ffd8a3 100%);
+	font-family: cabin;
+	width: 100%;
+	font-size: 8px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 30px auto;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.header__content {
+	width: 90%;
+	margin: auto;
+	height: 100%;
+}
+
+.header__navbar {
+	width: 100%;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.header__navbar a {
+	text-decoration: none;
+}
+
+.header__navbar-logo{
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 2em;
+
+}
+
+.header__navbar-logo a{
+	margin: 3px;
+	color: white;
+}
+
+.header__navbar-enlaces{
+	width: 60%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;	
+}
+
+.header__navbar-enlaces a{
+	margin: 20px;
+	color:#D8D8D8;
+}
+
+.header__search-register{
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header__search-icon{
+	font-size: 1.5em;
+}
+
+
+.main {
+	width: 100%;
+	font-size: 16px;
+	height: 1000px;
+}
+
+.main__content {
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+
+.main__text {
+	width: 50%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+	color: white;
+}
+
+.main__text-title{
+	font-size: 2.5em;
+	margin: 10px;
+}
+
+.main__text-subtitle{
+	font-size: 1em;
+}
+
+.main__thumbnail {
+	width: 50%;
+	height: 500px;
+}
+
+.main__img {
+	width: 100%;
+	height: 500px;
+}
+
+.btn {
+	margin: 5px;
+	background-color: white;
+	width: 7em;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #909090;
+	border-radius: 50px;
+	font-size: 0.7em;
+}
+
+.btn-salmon {
+	background-color: #DBA38B;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	width: 300px;
+	border-radius: 100px;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin: 20px 0px;
+	justify-content: center;
+	align-items: center;
+}
+
+.payments {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	font-size: 3em;
+}
+
+.payments i {
+	margin: 40px;
+	color: #909090;
+}
